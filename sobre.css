@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+    font-family: 'Poppins', 'Arial Narrow', Arial, sans-serif;
+    
+  }
+
+
+
+
+.background-color-sobre{
+
+  background-color: #131459;
+  width: 100%;
+  padding: 100px 0px;
+ 
+}
+
+.background-color-sobre img{
+
+  width: 650px;
+  height: auto;
+ 
+
+}
+
+
+.text-sobre{
+
+  width: 800px;
+
+}
+
+.main-sobre{
+
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 1130px;
+  margin: 0 auto;
+
+}
+
+.text-sobre h2{
+
+  color: white;
+  font-size: 65px;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+  font-weight: bold;
+
+}
+.text-sobre p{
+
+  color: white;
+  letter-spacing: 0px;
+  line-height: 20px; 
+  font-size: 15px;
+  margin-bottom: 20px;
+  font-weight: normal;
+
+
+}
+
+.button{
+
+    background-color: #fc02c4;
+    color: white;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid transparent;
+    padding: 13px 20px;
+    font-size: 20px;
+    transition: transform .8s;
+    
+
+}
+
+.button:hover{
+
+   
+   
+    transform: scale(1.2);
+
+}
+
+
+.sobre-img{
+
+  max-width: 550px;
+  max-height: 550px;
+  margin-right: 20px;
+  border-radius: 20%;
+
+  
+
+}
+
+
+@media (max-width: 360px){
+
+  .sobre-img{
+
+    margin-left: -30px;
+
+  }
+
+  .text-sobre p {
+
+    margin-top: -10px;
+    margin: -10px 610px 20px 1px;
+    padding-right: 34px;
+    font-size: 5px;
+
+  }
+
+  .button{
+
+    margin-left: 90px;
+
+  }
+
+}
+
+
+
+@media (max-width: 440px){
+
+  
+
+
+.background-color-sobre{
+
+  background-color: #131459;
+  width: 100%;
+  padding: 100px 0px;
+
+  
+  
+}
+
+
+
+
+
+.sobre-img{
+
+  max-width: 220px;
+  max-height: 250px;
+  margin-bottom: 50px;
+  margin-right: 720px;
+
+}
+
+
+.text-sobre h2{
+
+  color: white;
+  font-size: 25px;
+  text-transform: capitalize;
+  margin-bottom: 30px;
+  font-weight: bold;
+  margin-left: -150px;
+
+
+
+}
+
+.main-sobre{
+
+  flex-direction: column;
+
+}
+
+
+
+.text-sobre p{
+
+  color: white;
+  letter-spacing: 0px;
+  line-height: 20px; 
+  font-size: 13px;
+  margin-top: -15px;
+  margin-right: 570px;
+
+
+
+}
+
+
+.button{
+
+  background-color: #fc02c4;
+  color: white;
+  border-radius: 25px;
+  font-weight: bold;
+  border: 2px solid transparent;
+  padding: 12px 14px;
+  font-size: 15px;
+  transition: transform .8s;
+  margin-left: 100px;
+  margin-top: 20px;
+  
+
+}
+
+.title2 h2{
+
+  font-size: 30px;
+
+}
+
+}
+
+
+

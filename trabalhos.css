@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+    font-family: 'Poppins', 'Arial Narrow', Arial, sans-serif;
+    
+  }
+
+  
+.container-serviços{
+
+  background-image: url(fundo-padão.png);
+  width: 100%;
+  padding: 100px 0px;
+
+}
+
+
+    
+
+
+
+.title2 h2{
+
+  color: white;
+  font-size: 75px;
+  width: 1130px;
+  margin: 30px auto;
+  text-align: center;
+  font-weight: bold;
+
+}
+
+.caixa{
+
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  min-height: 400px;
+  flex-wrap: wrap;
+
+}
+
+.card{
+
+  background-color: #131459;
+  height: 505px;
+  width: 365px;
+  border: 20px;
+  border-radius: 20px;
+  margin: 15px;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  box-shadow: 0 15px 20px #fc02c4			, 0 -5px 5px #fc02c4		;
+
+
+}
+
+.card i{
+
+  font-size: 50px;
+  display: block;
+  text-align: center;
+  margin: 25px 0px;
+  color: #fc02c4;
+  cursor: pointer;
+
+}
+
+.card h5{
+
+  color: white;
+  font-size: 23px;
+  font-weight: bold;
+  margin: 15px;
+  color: #fc02c4;
+  margin-bottom: 25px
+
+}
+
+.card p {
+
+  font-size: 12px;
+  color: white;
+  font-weight: normal;
+  line-height: 22px;
+  margin-bottom: 25px;
+
+}
+
+.btn2{
+
+  background-color: #fc02c4;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 8px 20px;
+  border-radius: 30px;
+  transition: transform .8s;
+  margin-top: 30px;
+  margin-left: 10px;
+  width: 200px;
+ 
+
+}
+
+.btn2:hover{
+
+  transform: scale(1.2);
+
+}
+
+.btn1{
+
+  background-color: #fc02c4;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 8px 20px;
+  border-radius: 30px;
+  transition: transform .8s;
+  margin-top: 10px;
+  margin-left: 10px;
+  width: 200px;
+ 
+
+}
+
+.btn1:hover{
+
+  transform: scale(1.2);
+
+}
+
+.btn3{
+
+  background-color: #fc02c4;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 8px 20px;
+  border-radius: 30px;
+  transition: transform .8s;
+  margin-top: 30px;
+  margin-left: 0px;
+  width: 200px;
+ 
+
+}
+
+.btn3:hover{
+
+  transform: scale(1.2);
+
+}
+
+.logo01{
+
+height: 200px;
+width: 200px;
+text-align: center;
+margin-top: 20px;
+margin-left: 90px;
+border-radius: 20px;
+cursor: pointer;
+
+}
+
+@media (max-width: 360px) and (orientation: landscape) {
+  
+
+
+  .card p{
+
+    font-size: 12px;
+    margin-bottom: -10px;
+
+  }
+
+  .logo01{
+
+    margin-left: 20px;
+
+  }
+
+}
+
+@media (max-width: 440px){
+  
+  .title2 h2{
+
+    font-size: 35px;
+    margin-left: 50px;
+    text-align: left;
+    margin-top: -20px;
+
+  }
+
+  .card{
+
+    margin-bottom: 50px;
+
+  }
+
+  .logo01{
+
+    margin-left: 65px;
+
+  }
+
+
+  
+
+  
+
+}
+
+
+

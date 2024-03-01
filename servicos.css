@@ -1,0 +1,390 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+    font-family: 'Poppins', 'Arial Narrow', Arial, sans-serif;
+    
+  }
+
+  .background-color-skills{
+    
+   
+    background-color: #131459;
+    height: 100vh;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+
+
+  }
+
+  .skills{
+    
+    margin-left: 90px;
+    margin-top: 75px;
+    width: 500px;
+    padding: 40px;
+    border-radius: 20px;   
+    background-color: #131459 ; 
+    box-shadow: 0 15px 20px #fc02c4			, 0 -5px 5px #fc02c4		;
+   
+
+  }
+
+  .skills h1{
+
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    margin-left: 22px;
+
+  }
+
+
+  .skills ul{
+
+    list-style: none;
+
+  }
+
+  .skills ul li{
+
+    
+    margin: 20px 0px; 
+
+  }
+
+  .skills .barras{
+
+    background-color: white;
+    display: block;
+    height: 20px;
+    position: relative;
+    border-radius: 20px;
+    overflow: hidden;
+    transition: .5s ease-in-out;
+
+  }
+
+  .barras > span{
+
+    height: 20px;
+    background: linear-gradient(to right, #fc02c4, #d500a7 );
+    position: absolute;
+    width: 80%;
+
+  }
+
+  .Adobe {
+
+    width: 80%;
+    animation: Adobe 3s;
+
+  }
+
+  .FlayerAnimado{
+
+    width: 80%;
+    animation: FlayerAnimado 3s;
+
+   }
+
+
+   @keyframes Adobe{
+
+    0%{
+
+      width: 0%;
+
+    }
+
+    100%{
+
+      width: 80%;
+      
+    }
+
+   }
+  
+
+   @keyframes FlayerAnimado{
+
+    0%{
+
+      width: 0%;
+
+    }
+
+    100%{
+
+      width: 80%;
+
+    }
+
+   }
+
+   @media (max-width: 360px){
+
+
+    .skills h1{
+
+      margin-left: 5px;
+
+    }
+
+    .card4{
+
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+    
+      
+
+    }
+
+   }
+
+   @media (max-width: 440px){
+
+    .background-color-skills{
+
+      flex-direction: column;
+      height: 130vh;
+
+    }
+
+    .skills{
+
+      width: 320px;
+      margin-left: 18px;
+      padding: 5px;
+      
+      
+
+    }
+
+    .skills h1{
+
+      font-size: 25px;
+      padding-left: 25px;
+
+    }
+
+    .skills h3{
+
+      font-size: 20px;
+      
+
+    }
+
+   .skills .barras{
+
+    height: 17px;
+    width: 280px;
+
+   }
+
+   }
+
+
+   .card4 h1{
+
+    margin-top: 30px;
+    font-weight: bold;
+    font-size: 50px;
+    margin-bottom: 20px;
+
+   }
+
+ 
+   .card4 ul li{
+
+    
+    color: white;
+    letter-spacing: 0px;
+    line-height: 20px; 
+    font-size: 15px;
+    margin-bottom: 20px;
+    font-weight: normal;
+    justify-content: none;
+    list-style: none;
+    margin-right: 25px;
+  
+    }
+  
+    .card4{
+  
+      box-shadow: 0 15px 20px #fc02c4			, 0 -5px 5px #fc02c4	;
+  
+    }
+  
+    .title h2{
+  
+      color: white;
+      font-size: 75px;
+      width: 1130px;
+      margin: 30px auto;
+      text-align: center;
+      font-weight: bold;
+    
+    }
+    
+    .caixa1{
+    
+      display: flex;
+      justify-content: center;
+      text-align: center;
+      min-height: 400px;
+      flex-wrap: wrap;
+      margin-left: 50px;
+      margin-top: 50px;
+    
+    }
+    
+    .card4{
+    
+      background-color: #131459;
+      height: 405px;
+      width: 365px;
+      border: 20px;
+      border-radius: 20px;
+      margin: 15px;
+      position: relative;
+      overflow: hidden;
+      text-align: center;
+      margin-top: 25px;
+    
+    }
+    
+    .card4 i{
+    
+      font-size: 50px;
+      display: block;
+      text-align: center;
+      margin: 25px 0px;
+      color: #fc02c4;
+      cursor: pointer;
+    
+    }
+    
+    .card4 h5{
+    
+      color: white;
+      font-size: 23px;
+      font-weight: bold;
+      margin: 15px;
+      color: #fc02c4;
+      margin-bottom: 25px
+    
+    }
+    
+    .card4 p {
+    
+      font-size: 12px;
+      color: white;
+      font-weight: normal;
+      line-height: 22px;
+      margin-bottom: 25px;
+    
+    }
+    
+    .btn4{
+    
+      background-color: #fc02c4;
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      padding: 8px 20px;
+      border-radius: 30px;
+      transition: transform .8s;
+      margin-top: 30px;
+      margin-left: 15px;
+      width: 200px;
+     
+    
+    }
+    
+    .btn4:hover{
+    
+      transform: scale(1.2);
+    
+    }
+
+    .btn88{
+    
+      background-color: #fc02c4;
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      padding: 8px 20px;
+      border-radius: 30px;
+      transition: transform .8s;
+      margin-top: 10px;
+      margin-left: 5px;
+      width: 200px;
+     
+    
+    }
+    
+    .btn88:hover{
+    
+      transform: scale(1.2);
+    
+    }
+
+    @media (max-width: 440px){
+
+      .card4{
+
+       justify-content: center;
+       height: 425px;
+       width: 355px;
+        
+
+      }
+
+      .caixa1{
+
+        margin-left: -55px;
+        width: 500px;
+
+      }
+
+      .btn88{
+
+      margin-top: 2px;
+      margin-bottom: 2px;
+
+      }
+
+    }
+
+    @media (min-width: 360px){
+
+      .card4{
+
+        width: 320px;
+        margin-right: 45px;
+
+      }
+
+   
+
+    }
+
+
+
+    
+
+
+    
+    
+
+
+  
+ 
